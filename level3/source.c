@@ -25,3 +25,6 @@ int main(void)
 	v();
 	return 0;
 }
+
+
+printf(80%n, &m)

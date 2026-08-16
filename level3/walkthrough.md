@@ -13,7 +13,6 @@ level3@RainFall:~$ ls -l ./level3
 - **SetUID (s)**: The binary has the `s` bit on the owner's permissions, meaning it executes with the privileges of the file owner (`level4`) rather than the user running it (`level3`).
 - **SetGID (s)**: Similarly, the group ID is set, allowing the process to inherit the `users` group permissions.
 - **The Hint**: The goal is to exploit the binary to hijack its execution flow; because of these bits, any shell spawned will inherit `level4` privileges, allowing access to the next level's password.
-(python -c 'print "\x8c\x98\x04\x08" + "A"*60 + "%4$n"'; cat) | ./level3
 
 ## 2. Static Analysis with Objdump
 ```bash
