@@ -9,8 +9,8 @@ void run(void)
 
 int main(void)
 {
-	char *input[76];
-
+	char input[64];
 	gets(input);
+	
 	return 0;
 }

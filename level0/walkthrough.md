@@ -27,7 +27,7 @@ Dump of assembler code for function main:
    0x08048ede <+30>:	jne    0x8048f58 <main+152>
 
 ```
-the binary compare the input convert with atoi with hex value 0x107 which is 423 in decimal
+the binary compare the input convert with atoi with hex value 0x1a7 which is 423 in decimal
 we run binary with 423 in argument
 ```bash
 level0@RainFall:~$ ./level0 423
